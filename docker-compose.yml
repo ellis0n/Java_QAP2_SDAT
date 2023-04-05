@@ -3,7 +3,7 @@ services:
   myapp-main:
     image: java_qap2_sdat:latest
     ports:
-      - 8080:8080
+      - "8080:8080"
     environment:
       - spring.datasource.url=jdbc:mysql://host.docker.internal:3306/restsprint
       - spring.datasource.password=51Salisbury#
